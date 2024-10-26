@@ -1,0 +1,84 @@
+.why-mregg {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.why-mregg-upper {
+  /* width: 100%;
+    padding-top: 2rem; */
+}
+
+.why-mregg-upper h3 {
+  color: #0092ed;
+
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+.why-mregg-upper p {
+  color: rgb(26, 25, 25);
+  font-size: 18px;
+  text-align: justify;
+}
+
+.bold-details {
+  font-weight: 600;
+}
+
+.text-details {
+  /* padding-left: 4rem;
+    padding-right: 4rem; */
+}
+
+.certificate {
+  /* padding-left: 4rem;
+    padding-right: 4rem; */
+}
+
+.certificate img {
+}
+
+@media screen and (max-width: 500px) {
+  .why-mregg-upper h1 {
+    font-size: 30px;
+  }
+
+  .why-mregg-upper p {
+    color: rgb(26, 25, 25);
+    font-size: 15px;
+    text-align: justify;
+  }
+}
+.img-fluidd {
+  max-width: 100%;
+  height: auto;
+}
+
+.main_div_certi {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card_img_certi {
+  width: 50%;
+}
+
+.img_ceri {
+  width: 92%;
+  height: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .img_ceri {
+    width: 80%;
+    height: auto;
+    margin-right: 2rem;
+  }
+}
+
+.card_sevices {
+  width: 80%;
+}

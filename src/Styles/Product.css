@@ -1,0 +1,192 @@
+/* Existing styles */
+
+.product {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.product-main {
+    display: flex;
+    flex-wrap: wrap; /* Added for better wrapping on smaller screens */
+}
+
+.product-image img {
+    width: 100%;
+}
+
+.product-details {
+    padding: 1rem;
+    text-align: left;
+}
+
+.product-details h2 {
+    color: #1B9596;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.product-details p {
+    color: #3B4964;
+    margin-top: 2rem;
+    font-size: 16px;
+    line-height: 1.8rem;
+}
+
+.product-details button {
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    height: 2.8rem;
+    padding: 0.4rem;
+    border-radius: 0.6rem;
+    color: white;
+}
+
+.product-btn1 {
+    width: 14rem;
+    background-color: #1b9596;
+}
+
+.product-btn2 {
+    width: 10rem;
+    background-color: #1b9596;
+    margin-left: 1rem;
+}
+
+.accordion {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.accordion-item {
+    border: 0.2rem solid rgb(0, 193, 236);
+}
+
+.accordion-button {
+    background-color: #efefef;
+    color: rgb(0, 192, 235);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.related-product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1.6rem;
+    text-align: center;
+}
+
+.related h2 {
+    color: #1B9596;
+}
+
+.related {
+    text-align: left;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+
+.related-product img {
+    width: 100%;
+}
+
+.related-product h2 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #1B9596;
+
+}
+
+.single-img {
+    height: 30rem;
+    width: 20rem;
+}
+
+.related-img {
+    height: 20rem;
+}
+
+/* Responsive styles for tablets and mobile devices */
+@media (max-width: 768px) {
+    .product-main {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+    }
+
+    .product-details {
+        text-align: center; /* Center text on smaller screens */
+        padding: 1rem 2rem;
+    }
+
+    .product-details h2 {
+        font-size: 28px; /* Smaller font size for smaller screens */
+    }
+
+    .product-details p {
+        font-size: 24px; /* Adjust font size */
+    }
+
+    .product-details button {
+        font-size: 18px; /* Adjust button font size */
+        width: auto; /* Auto width for better responsiveness */
+    }
+
+    .product-btn1,
+    .product-btn2 {
+        width: 100%; /* Full width for buttons */
+        margin-bottom: 1rem; /* Space between buttons */
+    }
+
+    .single-img {
+        width: 100%; /* Full width for main image */
+        height: 18rem; /* Maintain aspect ratio */
+    }
+
+    .related-product h2 {
+        font-size: 20px; /* Adjust font size */
+    }
+
+    .related-img {
+        width: 100%; /* Full width for related images */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .accordion {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .product{
+        padding-top: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .product-details h2 {
+        font-size: 24px; /* Smaller font size for very small screens */
+    }
+
+    .product-details p {
+        font-size: 20px; /* Adjust font size */
+    }
+
+    .related-product img {
+        height: auto; /* Full width for related images */
+    }
+
+    .related h2 {
+        font-size: 18px; /* Adjust font size */
+    }
+
+    .product-btn2 {
+        width: 10rem;
+        background-color: #1b9596;
+        padding: 0%;
+        margin: 2%;
+    }
+}
+
+.product-details-p{
+    text-align: justify;
+}

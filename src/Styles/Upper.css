@@ -1,0 +1,26 @@
+.upper-side {
+    /* padding-left: 6rem;
+    padding-right: 6rem; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #d1d5db
+    ;
+}
+.upper-side div {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .upper-side {
+        /* padding-left: 6rem;
+        padding-right: 6rem; */
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+  }

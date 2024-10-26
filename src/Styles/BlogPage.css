@@ -1,0 +1,300 @@
+/* BlogPage.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .blog-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #1B9596;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .blog-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .blog-header h1 {
+    font-size: 3rem;
+    color: #1B9596;
+  }
+  
+  .blog-header p {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .hero-section {
+    background-color: #1B9596;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #f9a825;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #c77800;
+  }
+  
+  .introduction, .featured-articles, .image-gallery, .blog-videos, .detailed-posts, .testimonials, .sidebar, .contact-form, .blog-footer {
+    margin-bottom: 40px;
+  }
+  
+  .introduction h2, .featured-articles h2, .image-gallery h2, .blog-videos h2, .detailed-posts h2, .testimonials h2, .sidebar h2, .contact-form h2 {
+    font-size: 2rem;
+    color: #1B9596;
+    margin-bottom: 20px;
+  }
+  
+  .articles-grid, .gallery-grid, .video-grid, .testimonials-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .featured-article, .gallery-item, .video-wrapper, .testimonial, .blog-post {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1 1 calc(33.333% - 20px);
+  }
+  
+  .featured-article img, .gallery-item img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .video-wrapper video {
+    width: 100%;
+  }
+  
+  .detailed-posts .blog-post {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+
+  .gallery-image {
+    height: 100%;
+  }
+  
+  .sidebar {
+    background-color: #1B9596;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .sidebar h2 {
+    margin-top: 0;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    background-color: #1B9596;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #555;
+  }
+  
+  .blog-footer {
+    text-align: center;
+    color: #777;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .articles-grid, .gallery-grid, .video-grid, .testimonials-grid {
+      flex-direction: column;
+    }
+  
+    .featured-article, .gallery-item, .video-wrapper, .testimonial, .blog-post {
+      flex: 1 1 100%;
+    }
+  
+    .sidebar {
+      margin-top: 20px;
+    }
+  }
+
+
+
+/* BlogPage.css */
+
+/* Video Section */
+.blog-videos {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .blog-videos h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .video-wrapper {
+    flex: 1 1 calc(30% - 20px); /* Two-column layout on medium screens */
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .video-wrapper iframe {
+    width: 100%;
+    height: 315px; /* Maintain aspect ratio */
+  }
+  
+  .video-description {
+    padding: 10px;
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .video-wrapper {
+      flex: 1 1 100%; /* Single column layout on smaller screens */
+    }
+  }
+  
+
+
+
+  @media screen  and (max-width: 500px) {
+    .hero-section h2{
+      font-size: 30px;
+      padding: 0%;
+    }
+    
+    .hero-section {
+      padding: 10%;
+    }
+    
+  }
+
+
+  .featured-imagee{
+    height: 16rem;
+  }
+
+.article-content h3{
+  margin-top: 1rem;
+}
+
+.article-content p {
+    text-align: justify;
+}
+
+#about p{
+    text-align: justify;
+}
+
+.main-p-blog {
+    text-align: justify;
+}
+
+
+
+.about_blog_img{
+width: 50vw;
+}
+
+.galary_head{
+  color: #1B9596;
+}
+
+
+.about_imgg {
+  width: 90%;
+  max-width: 500px; /* Limit max width on larger screens */
+  height: auto; /* Ensure the image maintains its aspect ratio */
+}
+
+#about-unique {
+  display: flex;
+  flex-direction: column; /* Stack elements on small screens */
+  align-items: center; /* Center items horizontally */
+}
+
+/* Medium to large devices */
+@media (min-width: 768px) {
+  #about-unique {
+    flex-direction: row; /* Use row layout on larger screens */
+  }
+
+  #about-unique div {
+    /* width: 50%;  */
+  }
+
+  #about-para {
+    padding: 0 20px; /* Add some padding for larger screens */
+  }
+}

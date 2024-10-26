@@ -1,0 +1,108 @@
+.contact-us {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-details-p {
+  font-size: 18px;
+  color: #FE9D24;
+  margin: 0%;
+}
+
+.contact-details-h2 {
+  font-size: 36px;
+  color: #1B9596;
+}
+
+.contact-form-1 {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(237, 230, 230);
+  margin-bottom: 1rem;
+}
+
+/* @media (max-width: 488px) {
+  .unique {
+    margin-top: 0.6em;
+  }
+} */
+
+/* Form css */
+
+.form-container {
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+
+.form-row {
+  display: flex;
+}
+
+.form-input {
+  flex: 1;
+  height: 3.2rem;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #1B9596; /* Text color */
+  
+}
+
+.form-input:hover {
+  border: 2px solid #1B9596;
+}
+
+.message-input {
+  width: 100%;
+  height: 20vh; /* Responsive height based on viewport */
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #1B9596;
+  background-color: #fff;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+/* Media query for small screens */
+@media (max-width: 600px) {
+  .message-input {
+    height: 15vh; /* Smaller initial height on mobile */
+  }
+}
+
+
+.submit-button {
+  background-color: #1B9596;
+  color: #fff;
+  height: 3rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 1rem;
+  width: 10rem;
+}
+
+.submit-button:hover {
+  background-color: #082266;
+}
+
+.contact-s {
+  padding-left: 2rem;
+}
+
+
+#call_uss{
+color: #1B9596;
+font-size: 2rem;
+}
+
+
+@media (max-width: 488px) {
+  .form-row {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,135 @@
+
+
+
+.footer-container{
+    background-color:#009eff
+
+
+    ;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer div{
+    width: calc(100% / 3);
+}
+
+
+
+
+.callus{
+    margin-top: 1.5rem;
+}
+
+.working{
+    margin-bottom: 1.5rem;
+
+}
+
+.footer-1 h4{
+    color: #1B9596;
+
+
+
+}
+.footer-1 p{
+    font-size: 16px;
+    color: #3b4964; 
+}
+.footer-2 h4{
+    color: #1B9596;
+
+}
+
+.footer-2 p {
+
+    margin-top: 1rem;
+    color: white;
+}
+
+
+
+
+.footer-3 h4{
+    color: #1B9596;
+
+}
+
+.footer-3 iframe {
+    height: 20rem;
+}
+
+.footer-1{
+    padding: 2rem;
+}
+
+
+
+
+
+
+.kanak{
+    width: 100%;
+
+}
+
+.kanak_first{
+    text-align: start;
+    width: 50%;
+}
+.kanak_second{
+    text-align: end;
+    width: 50%;
+}
+
+@media screen and (max-width:500px) {
+   .footer-2{
+    padding: 2rem;
+    padding-top: 0rem;
+   }
+
+  
+  
+}
+
+.kanak{
+    display: flex;
+}
+
+@media screen and (max-width:500px) {
+.kanak{
+    display: block;
+}
+
+.kanak_first{
+    text-align: start;
+    width: 100%;
+}
+.kanak_second{
+    text-align: start;
+    width: 100%;
+}
+.kanak p{
+    font-size: 13px;
+}
+}
+
+#icons-footer1 i {
+    font-size: 40px;
+    margin-right: 0.6rem;
+    color: rgb(229, 38, 0);
+}
+
+#icons-footer2 i {
+    font-size: 40px;
+    margin-right: 0.6rem;
+    color: rgb(0, 77, 110);
+}
+
+#icons-footer3 i {
+    font-size: 40px;
+    color: rgb(0, 46, 79);
+}

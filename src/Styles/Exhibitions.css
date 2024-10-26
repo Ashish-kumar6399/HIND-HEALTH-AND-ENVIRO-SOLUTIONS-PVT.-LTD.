@@ -1,0 +1,57 @@
+.exhibitions{
+    background-color: #1B9596;;
+    width: 80%;
+    padding-bottom: 0.4rem;
+    padding-top: 0.4rem;
+}
+
+
+.exhibi_image{
+    height: 30rem;
+}
+
+.card{
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 0px 0px;
+
+}
+
+.exhibi_head{
+    color: #1B9596;
+}
+
+
+
+@media (max-width: 768px) {
+ 
+    .exhibitions {
+        padding-right: 10%;
+    }
+
+}
+
+  .exhibitions h3{
+    font-size: 2rem;
+    padding-top: 0.3rem;
+  }
+
+
+  .event_div img{
+    width: 85vw;
+  }
+
+
+  @media (max-width: 768px) {
+    .event_div img {
+      width: 70vw; /* Adjust width for medium devices like tablets */
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .event_div img {
+      width: 95vw; /* Adjust width for laptops and larger screens */
+    }
+  }

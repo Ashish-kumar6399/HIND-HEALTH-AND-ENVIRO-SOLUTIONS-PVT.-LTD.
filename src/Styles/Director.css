@@ -1,0 +1,159 @@
+.director {
+    /* padding-left: 10rem;
+    padding-right: 10rem; */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* .director-upper {
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+
+.leaders-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .leader-info {
+    align-items: center;
+    margin-bottom: 30px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .image-container {
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .square-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .leader-name-position {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .content-container {
+    max-width: 700px;
+  }
+  
+  .directors {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .director-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .director-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  #h2hh {
+    margin-bottom: 15px;
+    color: #2EA6F6;
+  }
+  
+  #h333 {
+    margin-top: 10px;
+  }
+  
+  #pppp {
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .leader-info {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .image-container {
+      margin-right: 0;
+    }
+  
+    .directors {
+      flex-direction: column;
+    }
+  }
+#director-header-img {
+    color: #1B9596;
+}
+  
+
+.director-upper-2 {
+
+    border: 0.4rem solid #1B9596;
+    padding: 1rem;
+}
+.director-upper-2 p {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.director-upper-1 img {
+    height: 10rem;
+}
+
+.director-lower {
+    background-color: #137e7e;
+    /* margin-left: 3rem;
+    margin-right: 3rem; */
+    padding: 1rem;
+    margin-top: 1rem;
+    color: white;
+    text-align: justify;
+}
+
+.header-director {
+    text-align: center;
+}
+
+.header-director h2 {
+    font-size: 42px;
+    margin-bottom: 0.2rem;
+    color: #1B9596;
+    margin-top: -1rem;
+}
+
+.header-director p {
+    padding-top: 0.2rem;
+    font-size: 18px;
+    color: #4e4e4e;
+}
+
+@media (max-width: 768px) {
+    .director-upper-1 {
+        text-align: center;
+    }
+  }
+
+  .director{
+  }
+
+
+  @media (max-width: 768px) {
+    #para_display{
+display: none;
+    }
+  }
+  

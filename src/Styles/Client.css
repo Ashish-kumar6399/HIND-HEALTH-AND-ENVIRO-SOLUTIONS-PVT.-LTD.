@@ -1,0 +1,52 @@
+/* Base card styles */
+.card_images {
+  width: 100%; /* Full width within its container */
+  max-width: 18rem; /* Maximum width of the card */
+  height: auto; /* Auto height based on content */
+  margin-bottom: 1rem; /* Space below each card */
+}
+
+/* Container for the card images */
+.client_images_div {
+  display: flex;
+  flex-wrap: wrap; /* Allows cards to wrap to the next line if needed */
+  gap: 1rem; /* Space between cards */
+  justify-content: center; /* Center align items horizontally */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+  .card_images {
+    max-width: 16rem; /* Adjust card size for medium devices */
+  }
+}
+
+@media (max-width: 992px) {
+  .card_images {
+    max-width: 14rem; /* Adjust card size for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .card_images {
+    max-width: 12rem; /* Adjust card size for small tablets */
+  }
+}
+
+@media (max-width: 576px) {
+  .card_images {
+    max-width: 96%; /* Card takes full width on small screens */
+   
+  
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .card_images{
+    /* margin-left:  5%; */
+    
+  }
+  }
+
+

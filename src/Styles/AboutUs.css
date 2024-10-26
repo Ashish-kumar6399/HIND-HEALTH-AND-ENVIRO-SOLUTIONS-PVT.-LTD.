@@ -1,0 +1,144 @@
+.about-us {
+    text-align: center;
+    /* padding-left: 6rem;
+    padding-right: 6rem; */
+    padding-top: 1rem;
+    /* padding-bottom: 2rem; */
+}
+
+.about-us h4 {
+    color: #1B9596;
+    /* font-size: 18px; */
+
+    margin: 0%;
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+
+.about-us h2 {
+    color: #009eff;
+    font-size: 30px;
+
+    margin: 0%;
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+
+.about-us p {
+    color: rgb(26, 25, 25);
+    font-size: 16px;
+
+    line-height: 1.8rem;
+}
+
+.about-us-card {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    /* margin-left: 8rem;
+    margin-right: 8rem; */
+    margin-top: 3rem;
+}
+
+.about-us-card-1 {
+    /* width: 22rem; */
+    height: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    border: 2px solid #009eff
+    ;
+    margin-left: 5px;
+}
+
+.about-us-card-1 h2 {
+    color: #009eff
+    ;
+    background-color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.about-us-card-1 p {
+    font-size: 16px;
+    color: rgb(26, 25, 25);
+    background-color: white;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+.about-us-icon {
+    font-size: 4rem;
+    color: #009eff    ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#about-unique {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    align-items: center;
+}
+
+#about-img img {
+    height: 16rem;
+    width: 30rem;
+    max-width: 26rem;
+    border-radius: 1rem;
+    object-fit: initial;
+}
+
+#content-about-us-page {
+    text-align: justify;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 1rem;
+}
+
+@media (max-width: 1000px) {
+    #about-unique {
+        flex-direction: column;
+        margin-left: 0.6rem;
+        margin-right: 0.6rem;
+        text-align: center;
+    }
+
+    #about-img img {
+        height: auto;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 0.4rem;
+    }
+
+    #content-about-us-page {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    #about-img img {
+       padding: 0%;
+    }
+    #about_us_div_change,#about-img{
+        width: 99vw;
+        padding: 0%;
+        margin: 0%;
+        border-radius: 0%;
+    }
+    #about-img img{
+        border-radius: 0%;
+    }
+
+   
+}
+
+.fa-medal,.fa_circle_new,.fa-magnifying-glass,.fa-star{
+    font-size: 3.5rem;
+    margin-top: 2.3rem;
+    margin-bottom: 1rem;
+    color: #1B9596;
+}
+

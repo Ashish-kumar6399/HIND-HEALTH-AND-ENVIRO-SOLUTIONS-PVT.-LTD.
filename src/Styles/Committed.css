@@ -1,0 +1,60 @@
+.committed {
+    text-align: center;
+    /* padding-left: 6rem;
+    padding-right: 6rem; */
+    padding-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.committed h2 {
+    color: #1B9596;
+    font-size: 36px;
+
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+
+.committed h4 {
+    color: #3B4964;
+    font-size: 20px;
+
+    /* padding-left: 8rem; */
+    /* padding-right: 8rem; */
+    line-height: 1.8rem;
+}
+
+.committed-card {
+    text-align: left;
+    /* margin-left: 6rem;
+    margin-right: 6rem; */
+    margin-top: 5rem;
+}
+
+.committed-1 {
+    margin-top: 4rem;
+}
+
+.committed-1 p {
+    color: #666666;
+}
+
+.committed-2 {
+    margin-left: 1rem;
+}
+
+.committed-2-button {
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    height: 2.8rem;
+    background-color: #1B9596;
+    /* color: #1B9596; */
+
+    border-radius: 0.4rem;
+    color: white;
+}
+
+.committed-2-img {
+    height: 20rem;
+    width: 100%;
+}

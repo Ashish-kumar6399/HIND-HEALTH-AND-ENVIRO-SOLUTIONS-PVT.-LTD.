@@ -1,0 +1,60 @@
+
+
+/* Container Styling */
+.vision-mission-container {
+    background-color: #f5fcff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Card Styling */
+  .card_icons {
+    background-color: #f5fcff;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    margin-bottom: 15px;
+  }
+  
+  .icon img {
+    width: 50px;
+    height: 50px;
+  }
+  .icon i{
+    font-size: 3rem;
+    color: #009eff    ;
+  }
+  
+  /* Card Title Styling */
+  .card-title {
+    color: #009eff    ;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Card Text Styling */
+  .card-text {
+    color: #6c757d;
+    font-size: 1rem;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .vision-mission-container {
+      padding: 10px;
+    }
+  
+    .card-title {
+      font-size: 1.25rem;
+    }
+  
+    .card-text {
+      font-size: 0.9rem;
+    }
+  }
+  
