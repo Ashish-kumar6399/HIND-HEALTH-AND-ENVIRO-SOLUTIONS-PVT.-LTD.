@@ -14,7 +14,7 @@ const PlantRoom = () => {
           />
         </div>
         <div className="Plant-Room-content col-12 col-md-6">
-          <h2 className="mt-4 mb-3  ps-5" style={{color:"#0092ed"}}>
+          <h2 className="mt-4 mb-3  ps-5 fw-bolder" style={{color:"#0092ed"}}>
             Mobile Toilet Trolley
             <br />
           </h2>
@@ -42,7 +42,7 @@ const PlantRoom = () => {
               </p>
             </div>
           </div>
-          <Link href="/products">
+          {/* <Link href="/products">
             <div id="main_div_catt">
               <button
                 className="btn_main_div_catt text-center"
@@ -55,7 +55,7 @@ const PlantRoom = () => {
                 View catalogue →
               </button>
             </div>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>

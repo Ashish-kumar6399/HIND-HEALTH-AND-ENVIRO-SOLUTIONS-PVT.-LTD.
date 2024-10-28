@@ -47,9 +47,9 @@ const SearchPage = ({params}) => {
           <div className="products container">
             <h1>Explore Our Full Range of Products</h1>
             <p>All products are meticulously crafted by our expert team in our state-of-the-art facility in India.</p>
-            <button className="download-catalogue" onClick={handleDownload}>
+            {/* <button className="download-catalogue" onClick={handleDownload}>
               Download Catalogue
-            </button>
+            </button> */}
             <div className="products-main row gap-3 mx-auto justify-content-center">
               {/* Apply gap between cards */}
               {filteredData.map((e, index) => (

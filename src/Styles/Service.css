@@ -1,25 +1,27 @@
 .services {
     /* background-image: url('https://www.precisionuk.co.uk/wp-content/uploads/2023/04/Untitled-design-19.jpg');
     background-size: cover; */
-    background-color: #bfcece;
+    background-color: #d1d5db    ;
     width: 100%;
-    text-align: center;
+    text-align: justify;
     padding-top: 3rem;
     padding-bottom: 2.6rem;
 }
 
 .services h1 {
-    color: #0092ed ;
     font-size: 52px;
+    text-align: center;
+    color: #035f98;
+    font-weight: bolder;
 }
 
 .services p {
-    color: white;
+    /* color: white; */
     font-size: 18px;
 }
 
 .ser-p {
-    text-align: center;
+    /* text-align: center; */
 }
 
 

@@ -11,7 +11,7 @@
 
 .contact-details-h2 {
     font-size: 36px;
-    color: #1B9596;
+    color: #009eff;
 }
 
 .contact-form-1 {
@@ -39,11 +39,11 @@
     padding: 16px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    color: #1B9596; /* Text color */
+    color: #009eff    ; /* Text color */
   }
 
 .form-input:hover {
-    border: 2px solid #1B9596;
+    border: 2px solid #009eff    ;
 }
   
 .message-input {
@@ -52,7 +52,7 @@
     padding: 16px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    color: #1B9596;
+    color: #009eff;
     background-color: #fff;
     resize: vertical;
     box-sizing: border-box;
@@ -73,7 +73,7 @@
   
   
   .submit-button {
-    background-color: #1B9596;
+    background-color: #009eff    ;
     color: #fff;
     height: 3rem;
     border: none;
@@ -95,6 +95,6 @@
 
 
 #call_uss{
-  color: #1B9596;
-  font-size: 2rem;
+  color: #009eff  ;
+  font-size: 1.5rem;
 }

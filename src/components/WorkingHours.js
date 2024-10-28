@@ -14,14 +14,14 @@ const WorkingHours = () => {
             />
           </div>
           <div className='working-2'>
-            <h1>Working Hours</h1>
-            <p>Monday ————- 9.30 Am – 7.00Pm</p>
-            <p>Tuesday ————-9.30 Am – 7.00Pm</p>
-            <p>Wednesday ——–9.30 Am – 7.00Pm</p>
-            <p>Thursday ———— 9.30 Am – 7.00Pm</p>
-            <p>Friday —————9.30 Am – 7.00Pm</p>
-            <p>Saturday ————9.30 Am – 7.00Pm</p>
-            <p>Sunday ————– Closed</p>
+          <h1 className="fw-bolder working text-white">Services </h1>
+            <p>Toilet Cabins</p>
+            <p>Mobile Toilet Van</p>
+            <p>Biogas Storage Tank</p>
+            <p>Mobile Toilet Trolley</p>
+            <p>Two Seater Toilet Cabin</p>
+            <p>Single Seater Portable Toilet Cabin</p>
+            <p>Ten Seated Stainless Steel Wc Toilet</p>
           </div>
         </div>
       </div>

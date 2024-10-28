@@ -39,15 +39,26 @@ const Footer = () => {
               </div>
             </div>
             <div>
+
+               
+
               <h4 className="fw-bolder callus text-white">
                 <i className="fa-solid fa-phone text-white"></i> Call Us
               </h4>
               <p>
                 <a
-                  href="tel:+919811610877"
+                  href="tel:+919871076261"
                   className="text-white  text-decoration-none"
                 >
-                  +91-9717121561
+                  +91-9871076261
+                </a>
+              </p>
+              <p>
+                <a
+                  href="tel:+919289239251"
+                  className="text-white  text-decoration-none"
+                >
+                  +91-9289239251
                 </a>
               </p>
             </div>
@@ -70,18 +81,18 @@ const Footer = () => {
               <i className="fa-solid fa-location-dot text-white"></i> Our
               Address
             </h4>
-            <p className="text-white">E-3/270 Qamruddin Nagar Nangloi</p>
+            <p className="text-white">E-3/270, Shiv Ram Park Nangloi, Near Peer Baba Mazar, New Delhi, Delhi -110041</p>
           </div>
 
           <div className="footer-2 col-12 col-md-6 col-lg-4">
-            <h4 className="fw-bolder working text-white">Working Hours</h4>
-            <p>Monday ——— 9.30 AM – 7.00 PM</p>
-            <p>Tuesday ——— 9.30 AM – 7.00 PM</p>
-            <p>Wednesday —– 9.30 AM – 7.00 PM</p>
-            <p>Thursday —— 9.30 AM – 7.00 PM</p>
-            <p>Friday ———— 9.30 AM – 7.00 PM</p>
-            <p>Saturday —— 9.30 AM – 7.00 PM</p>
-            <p>Sunday ——— Closed</p>
+            <h4 className="fw-bolder working text-white">Services </h4>
+            <p>Toilet Cabins</p>
+            <p>Mobile Toilet Van</p>
+            <p>Biogas Storage Tank</p>
+            <p>Mobile Toilet Trolley</p>
+            <p>Two Seater Toilet Cabin</p>
+            <p>Single Seater Portable Toilet Cabin</p>
+            <p>Ten Seated Stainless Steel Wc Toilet</p>
           </div>
 
           <div className="footer-3 col-12 col-md-6 col-lg-4">

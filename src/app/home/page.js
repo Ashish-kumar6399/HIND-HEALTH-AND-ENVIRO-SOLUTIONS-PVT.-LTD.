@@ -1,6 +1,6 @@
 
 import Hero from "@/components/Hero";
-import PlantRoom from "@/components/PlantRoom";
+import Mobiletrolley from "@/components/Mobiletrolley";
 import Service from "@/components/Service";
 import WhyMregg from "@/components/WhyMregg";
 import Articles from "@/components/Articles";
@@ -13,7 +13,7 @@ export default function Home() {
     <div>
       <Carosuel/>
        <Hero/>
-      <PlantRoom />
+       <Mobiletrolley/>
       <Service />
       <WhyMregg />
     </div>

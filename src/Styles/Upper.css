@@ -9,10 +9,11 @@
     ;
 }
 .upper-side div {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 600;
     color: white;
 }
+
 
 @media only screen and (max-width: 600px) {
     .upper-side {
@@ -22,5 +23,10 @@
         padding-bottom: 0.5rem;
         display: flex;
         justify-content: space-between;
+    }
+    .upper-side div {
+        font-size: 14px;
+        font-weight: 600;
+        color: white;
     }
   }

@@ -36,8 +36,8 @@ const Service = () => {
   return (
     <div>
       <div className='services'>
-        <h1>
-          Our Service <span style={{ color: '#2EA6F6' }}></span>
+        <h1 className=''>
+          Our Service <span style={{ color: 'black' }}></span>
         </h1>
         <div className='ser-p container'>
           <p id='para_colour'>

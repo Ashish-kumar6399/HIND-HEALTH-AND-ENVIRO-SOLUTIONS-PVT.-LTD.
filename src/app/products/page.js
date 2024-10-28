@@ -28,9 +28,9 @@ const Products = () => {
       <div className='products '>
         <h1>Explore Our Full Range of Products</h1>
         <p>All products are meticulously crafted by our expert team in our state-of-the-art facility in India.</p>
-        <button className='download-catalogue' id='download' onClick={handleDownload}>
+        {/* <button className='download-catalogue' id='download' onClick={handleDownload}>
           Download Catalogue
-        </button>
+        </button> */}
         <div className='products-main row gap-3 mx-auto justify-content-center'>
           {/* Apply gap between cards */}
           {Product.map((e, index) => (
@@ -39,6 +39,8 @@ const Products = () => {
               className='shadow flex col-md-6 col-lg-4 col-xl-3 mb-4'
             >
               <Link className='text-decoration-none' href={`/product/${getSlug(e.name)}`} passHref>
+              {/* <Link className='text-decoration-none' href="/contact" passHref> */}
+
                 <img
                   src={e.img}
                   alt='product/image'

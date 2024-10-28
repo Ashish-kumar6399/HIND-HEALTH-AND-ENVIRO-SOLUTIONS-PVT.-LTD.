@@ -41,7 +41,7 @@ function Servicescard() {
                       customTransition="all"
                       transitionDuration={500}
                       containerClass="carousel-container"
-                      removeArrowOnDeviceType={[""]}
+                      removeArrowOnDeviceType={["desktop"]}
                       // deviceType={this.props.deviceType}
                       dotListClass="custom-dot-list-style"
                       itemClass="carousel-item-padding-40-px" >
@@ -59,7 +59,7 @@ function Servicescard() {
             </div>
           </div>
           <div className="card card_sevices rounded">
-          <img id='img_service' src={'/image/img/ten seated.jpeg'} alt='Card 2' />
+          <img id='img_service' src={'/image/img/ten seated.webp'} alt='Card 2' />
 
             <div className="card-body ">
             <h2>Ten Seated  Wc Toilet </h2>

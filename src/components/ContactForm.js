@@ -91,11 +91,15 @@ const ContactForm = () => {
           <h2 className="contact-details-h2 fw-bolder">Contact Us</h2>
           <div className="contact-s">
             <div>
+            <h4 className="fw-bolder callus" id="call_uss"><span><i class="fa-solid fa-user"></i> </span>  Director</h4>
+            <h5>Mr Ramashankar
+            </h5>
+
               <h4 className="fw-bolder callus" id="call_uss">
-                Call Us
+              <i className="fa-solid fa-phone "></i>   Call Us
               </h4>
 
-              <p>
+              <p>  
                 <a
                   href="tel:+919871076261"
                   className="text-black  text-decoration-none"
@@ -104,7 +108,7 @@ const ContactForm = () => {
                 </a>
               </p>
 
-              <p>
+              <p>   
                 <a
                   href="tel:+919289239251"
                   className="text-black  text-decoration-none"
@@ -117,9 +121,7 @@ const ContactForm = () => {
             </div>
 
             <div>
-              <h4 className="fw-bolder" id="call_uss">
-                Email Us
-              </h4>
+              <h4 className="fw-bolder" id="call_uss"> <i class="fa-solid fa-envelope"></i>  Email Us</h4>
 
               <p>
                 <a
@@ -136,9 +138,7 @@ const ContactForm = () => {
             </div>
 
             <div>
-              <h4 className="fw-bolder" id="call_uss">
-                Our Address
-              </h4>
+              <h4 className="fw-bolder" id="call_uss"> <i class="fa-solid fa-location-dot"></i> Our Address </h4>
               <p>E-3/270, Shiv Ram Park Nangloi, Near Peer Baba Mazar, New Delhi, Delhi -110041
               </p>
             </div>
