@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { Drawer, Menu } from 'antd';
 // import { IoIosLogOut } from 'react-icons/io';
-// import Product from './Data.js'
+import data from '../Data'
 import { getSlug } from '../utils';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -28,402 +28,118 @@ const items = [
     children: [
       {
         key: '1',
-        label: <Link href='/product/1' style={{ textDecoration: 'none', color: '#009eff' }}>Medical Gas Control & Auhrefmatic Changeover</Link>,
+        label: <Link href='/product/1' style={{ textDecoration: 'none', color: '#009eff' }}>Mobile Toilet Trolley</Link>,
         children: [
           {
             key: '1-1',
-            label: <Link href={`/product/${getSlug("Semi Automatic Conrol Panel")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Semi Automatic Conrol Panel</Link>,
+            label: <Link href={`/product/${getSlug("8 Seater Mobile Toilet")}`} style={{ textDecoration: 'none', color: '#009eff' }}>08 Seater Mobile Toilet</Link>,
           },
           {
             key: '1-2',
-            label: <Link href={`/product/${getSlug("Fully Automatic Control Panel Analog")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Fully Automatic Control Panel- Analog</Link>,
+            label: <Link href={`/product/${getSlug("Indian Style Four Seater Toilet Trolley")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Indian Style Four Seater Toilet Trolley</Link>,
           },
           {
             key: '1-3',
-            label: <Link href={`/product/${getSlug("Fully Automatic Control Panel Digital")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Fully Automatic Control Panel- Digital</Link>,
+            label: <Link href={`/product/${getSlug("Ten Seater Mobile Toilet Trolley")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Ten Seater Mobile Toilet Trolley</Link>,
           },
           {
             key: '1-4',
-            label: <Link href={`/product/${getSlug("3 Source Fully Automatic Control Panel")}`} style={{ textDecoration: 'none', color: '#009eff' }}>3 Source Fully Automatic Control Panel</Link>,
+            label: <Link href={`/product/${getSlug("Six Seater Mobile Toilet Trolley (Indian Style)")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Six Seater Mobile Toilet Trolley (Indian Style)</Link>,
           },
           {
             key: '1-5',
-            label: <Link href={`/product/${getSlug("Fully Automatic Control Panel Touch Screen")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Fully Auhrefmatic Control Panel- hrefuch Screen</Link>,
-          },
-          {
-            key: '1-6',
-            label: <Link href={`/product/${getSlug("3 source fully automatic control panel touch screen")}`} style={{ textDecoration: 'none', color: '#009eff' }}>3 Source Fully Auhrefmatic Control Panel- hrefuch Screen</Link>,
+            label: <Link href={`/product/${getSlug("Four Seater Mobile Toilet")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Four Seater Mobile Toilet</Link>,
           },
         ],
       },
       {
         key: '2',
-        label: <Link href={`/product/${getSlug("Cylinder Frame Header Manifold")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Cylinder Framr Header/ Manifold</Link>,
+        label: <Link href='/product/1' style={{ textDecoration: 'none', color: '#009eff' }}>Single Seater Portable Toilet Cabin
+</Link>,
+        children: [
+          {
+            key: '2-1',
+            label: <Link href={`/product/${getSlug("Urinal Toilet Cabin")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Urinal Toilet Cabin</Link>,
+          },
+          {
+            key: '2-2',
+            label: <Link href={`/product/${getSlug("FRP Portable Toilet Cabin (Indian Style)")}`} style={{ textDecoration: 'none', color: '#009eff' }}>FRP Portable Toilet Cabin (Indian Style)</Link>,
+          },
+        ],
       },
       {
         key: '3',
-        label: <Link href='/product/3' style={{ textDecoration: 'none', color: '#009eff' }}>Alarm System</Link>,
+        label: <Link href='/product/3' style={{ textDecoration: 'none', color: '#009eff' }}>Toilet Cabin</Link>,
         children: [
           {
             key: '3-1',
-            label: <Link  href={`/product/${getSlug("Digital Gas Alarm Systems")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Digital Gas Alarm Systems</Link>,
+            label: <Link  href={`/product/${getSlug("Single Seater Portable Toilet cabin")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Single Seater Portable Toilet cabin</Link>,
           },
           {
             key: '3-2',
-            label: <Link  href={`/product/${getSlug("lcd alarm alert med touch")}`} style={{ textDecoration: 'none', color: '#009eff' }}>LCD Alarm Alert-1 (Med hrefuch)</Link>,
+            label: <Link  href={`/product/${getSlug("FRP Portable Toilet Cabin( Urinal Style)")}`} style={{ textDecoration: 'none', color: '#009eff' }}>FRP Portable Toilet Cabin( Urinal Style)</Link>,
           },
           {
             key: '3-3',
-            label: <Link  href={`/product/${getSlug("Analog Gas Alarm Systems")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Analog Gas Alarm Systems</Link>,
+            label: <Link  href={`/product/${getSlug("Portable Toilet Cabin (Indian Style)")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Portable Toilet Cabin (Indian Style)</Link>,
           },
           {
             key: '3-4',
-            label: <Link  href={`/product/${getSlug("Master Alarm")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Master Alarm</Link>,
+            label: <Link  href={`/product/${getSlug("FRP Portable Toilet Cabin (Western Style)")}`} style={{ textDecoration: 'none', color: '#009eff' }}>FRP Portable Toilet Cabin (Western Style)</Link>,
+          },
+          {
+            key: '3-5',
+            label: <Link  href={`/product/${getSlug("02 FRP Portable Toilet Cabin (Indian Style)")}`} style={{ textDecoration: 'none', color: '#009eff' }}>02 FRP Portable Toilet Cabin (Indian Style)</Link>,
+          },
+          {
+            key: '3-6',
+            label: <Link  href={`/product/${getSlug("Portable Toilet Cabin western & Urinal Style")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Portable Toilet Cabin western & Urinal Style</Link>,
+          },
+          {
+            key: '3-7',
+            label: <Link  href={`/product/${getSlug("Portable Toilet Cabin ( western Style)")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Portable Toilet Cabin (western Style)</Link>,
+          },
+          {
+            key: '3-8',
+            label: <Link  href={`/product/${getSlug("Western Style Single Seater Portable Toilet Cabin")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Western Style Single Seater Portable Toilet Cabin</Link>,
+          },
+          {
+            key: '3-9',
+            label: <Link  href={`/product/${getSlug("FRP Portable Toilet Cabin ( Indian Style)")}`} style={{ textDecoration: 'none', color: '#009eff' }}>FRP Portable Toilet Cabin ( Indian Style)</Link>,
           },
         ],
       },
       {
         key: '4',
-        label: <Link href={`/product/${getSlug("Area Valve Service Unit")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Area Valve Service Unit</Link>,
-      },
-      {
-        key: '5',
-        label: <Link href={`/product/${getSlug("Compact Multi Valve AVSU")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Compact Multi Valve AVSU</Link>,
+        label: <Link href='/product/3' style={{ textDecoration: 'none', color: '#009eff' }}>Two Seater Toilet Cabin</Link>,
+        children: [
+          {
+            key: '4-1',
+            label: <Link  href={`/product/${getSlug("Double Seated Toilet")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Double Seated Toilet</Link>,
+          },
+         
+        ],
       },
       {
         key: '6',
-        label: <Link href='/product/3' style={{ textDecoration: 'none', color: '#009eff' }}>Medical Gas Outlet</Link>,
+        label: <Link href='/product/3' style={{ textDecoration: 'none', color: '#009eff' }}>Biogas Storage Tank</Link>,
         children: [
           {
             key: '6-1',
-            label: <Link href={`/product/${getSlug("british-standard-compatible-nemo-xp")}`} style={{ textDecoration: 'none', color: '#009eff' }}>British Standard Compatible (100% Metal) Nemo XP</Link>,
+            label: <Link  href={`/product/${getSlug("Bio Digester Tank")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Bio Digester Tank</Link>,
           },
           {
             key: '6-2',
-            label: <Link href={`/product/${getSlug("British Standard Compatible Nemo safe")}`} style={{ textDecoration: 'none', color: '#009eff' }}>British Standard Compatible Nemo safe</Link>,
+            label: <Link  href={`/product/${getSlug("Green FRP Bio Digester Tank")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Green FRP Bio Digester Tank</Link>,
           },
           {
             key: '6-3',
-            label: <Link href={`/product/${getSlug("diss-compatible")}`} style={{ textDecoration: 'none', color: '#009eff' }}>DISS Compatible</Link>,
+            label: <Link  href={`/product/${getSlug("FRP Bio Digester Tank")}`} style={{ textDecoration: 'none', color: '#009eff' }}>FRP Bio Digester Tank</Link>,
           },
-          {
-            key: '6-4',
-            label: <Link href={`/product/${getSlug("British Standard Compatible Gem 10")}`} style={{ textDecoration: 'none', color: '#009eff' }}>British Standard Compatible (Gem 10)</Link>,
-          },
-          {
-            key: '6-5',
-            label: <Link href={`/product/${getSlug("Puritan Bennett Compatible")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Puritan- Bennett Compatible</Link>,
-          },
-          {
-            key: '6-6',
-            label: <Link href={`/product/${getSlug("Parkodex Compatible")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Parkodex Compatible</Link>,
-          },
-          {
-            key: '6-7',
-            label: <Link href={`/product/${getSlug("DIN Standard Compatible")}`} style={{ textDecoration: 'none', color: '#009eff' }}>DIN Standard Compatible</Link>,
-          },
-          {
-            key: '6-8',
-            label: <Link href={`/product/${getSlug("Ohmeda Standard Compatible")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Ohmeda Standard Compatible</Link>,
-          },
+         
         ],
       },
-      {
-        key: '7',
-        label: <Link href='/product/3' style={{ textDecoration: 'none', color: '#009eff' }}>Accessories</Link>,
-        children: [
-          {
-            key: '7-1',
-            label: <Link href={`/product/${getSlug("Regulators")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Regulators</Link>,
-          },
-          {
-            key: '7-2',
-            label: <Link href={`/product/${getSlug("plastic-shaddles-clamps")}`}  style={{ textDecoration: 'none', color: '#009eff' }}>Plastic Shaddles & Clamps</Link>,
-          },
-          {
-            key: '7-3',
-            label: <Link href={`/product/${getSlug("Isolation Ball Valve")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Isolation Ball Valve</Link>,
-          },
-          {
-            key: '7-4',
-            label: <Link href={`/product/${getSlug("Medical Gas Accessories")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Medical Gas Accessories</Link>,
-          },
-          {
-            key: '7-5',
-            label: <Link href={`/product/${getSlug("Pressure Gauges")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Pressure Gauges</Link>,
-          },
-          {
-            key: '7-6',
-            label: <Link href={`/product/${getSlug("Baskets")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Baskets</Link>,
-          },
-          {
-            key: '7-8',
-            label: <Link href={`/product/${getSlug("Flexible tail Pipe Connection")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Flexible tail Pipe Connection</Link>,
-          },
-        ],
-      },
-      {
-        key: '8',
-        label: <Link href='/product/3' style={{ textDecoration: 'none', color: '#009eff' }}>Tubing for Medical Gases (Supply & Artificial Respiration)</Link>,
-        children: [
-          {
-            key: '8-1',
-            label: <Link href={`/product/${getSlug("Oxygen")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Oxygen</Link>,
-          },
-          {
-            key: '8-2',
-            label: <Link href={`/product/${getSlug("Nitrous Oxide")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Nitrous Oxide</Link>,
-          },
-          {
-            key: '8-3',
-            label: <Link href={`/product/${getSlug("Medical Air")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Medical Air</Link>,
-          },
-          {
-            key: '8-4',
-            label: <Link href={`/product/${getSlug("Carbon Dioxide")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Carbon Dioxide</Link>,
-          },
-          {
-            key: '8-5',
-            label: <Link href={`/product/${getSlug("Vacuum Suction")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Vacuum/ Suction</Link>,
-          },
-          {
-            key: '8-6',
-            label: <Link href={`/product/${getSlug("AGSS WAGD")}`}  style={{ textDecoration: 'none', color: '#009eff' }}>AGSS/WAGD</Link>,
-          },
-        ],
-      },
-      {
-        key: '9',
-        label: <Link href='/product/3' style={{ textDecoration: 'none', color: '#009eff' }}>  Vacuum Regulators & Medical Suction Device</Link>,
-        children: [
-          {
-            key: '9-1',
-            label: <Link href={`/product/${getSlug("Direct Mount or bed Head Panel And Pendants")}`}  style={{ textDecoration: 'none', color: '#009eff' }}>Direct Mount or bed Head Panel & Pendants</Link>,
-          },
-          {
-            key: '9-2',
-            label: <Link href={`/product/${getSlug("reusable-polycarbonate-collection-jar-1-l-with-leak-proof-self-")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Reusable polycarbonate collection jar-1 L with Leak Proof self</Link>,
-          },
-          {
-            key: '9-3',
-            label: <Link href={`/product/${getSlug("direct-mount-on-wall-outlet-and-collection-jar-on-medical-rail-below-patient-body-level")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Direct Mount on wall Outlet & collection Jar on medical rail below patient body level</Link>,
-          },
-        ],
-      },
-      {
-        key: '10',
-        label: <Link href={`/product/${getSlug("theatre-suction-trolley")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Theatre Suction trolley</Link>,
-      },
-      {
-        key: '11',
-        label: <Link href='/product/3' style={{ textDecoration: 'none', color: '#009eff' }}>Medical Oxygen Flow meter</Link>,
-        children: [
-          {
-            key: '11-1',
-            label: <Link href={`/product/${getSlug("0-to-5-lpm")}`} style={{ textDecoration: 'none', color: '#009eff' }}>0-5 LPM</Link>,
-          },
-          {
-            key: '11-2',
-            label: <Link href={`/product/${getSlug("0-to-15-LPM")}`} style={{ textDecoration: 'none', color: '#009eff' }}>0-15 LPM</Link>,
-          },
-          {
-            key: '11-3',
-            label: <Link  href={`/product/${getSlug("0-to-70-LPM")}`} style={{ textDecoration: 'none', color: '#009eff' }}>0-70 LPM</Link>,
-          },
-          {
-            key: '11-4',
-            label: <Link href={`/product/${getSlug("Humidifier bottle")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Humidifier bottle</Link>,
-          },
-        ],
-      },
-      {
-        key: '12',
-        label: <Link href='/product/3' style={{ textDecoration: 'none', color: '#009eff' }}> Monitor Stand</Link>,
-        children: [
-          {
-            key: '12-1',
-            label: <Link href={`/product/${getSlug("monitor-stand-multi-movement")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Monitor Stand Multi Movement</Link>,
-          },
-          {
-            key: '12-2',
-            label: <Link href={`/product/${getSlug("monitor-stand")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Monitor Stand</Link>,
-          },
-        ],
-      },
-      {
-        key: '13',
-        label: <Link href='/product/3' style={{ textDecoration: 'none', color: '#009eff' }}>Cubical Curtain Track</Link>,
-        children: [
-          {
-            key: '13-1',
-            label: <Link href={`/product/${getSlug("IV-Hanger")}`} style={{ textDecoration: 'none', color: '#009eff' }}>IV Hanger</Link>,
-          },
-        ],
-      },
-      {
-        key: '14',
-        label: <Link href={`/product/${getSlug("nurse-call-system")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Nurse Call System</Link>,
-      },
-      {
-        key: '15',
-        label: <Link href='/product/3' style={{ textDecoration: 'none', color: '#009eff' }}>Pendants</Link>,
-        children: [
-          {
-            key: '15-1',
-            label: <Link  href={`/product/${getSlug("stainless-steel-rigid-pendant")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Stainless Steel Rigid Pendant</Link>,
-          },
-          {
-            key: '15-2',
-            label: <Link href={`/product/${getSlug("endoscopy-laproscopy-pendant")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Endoscopy / Laproscopy Pendant</Link>,
-          },
-          {
-            key: '15-3',
-            label: <Link href={`/product/${getSlug("shelf-type-double-arm-pendant")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Shelf Type Double Arm Pendant</Link>,
-          },
-          {
-            key: '15-4',
-            label: <Link href={`/product/${getSlug("double-arm-pendant")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Double Arm Pendant</Link>,
-          },
-          {
-            key: '15-5',
-            label: <Link href={`/product/${getSlug("swievel-pendant")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Swievel Pendant</Link>,
-          },
-          {
-            key: '15-6',
-            label: <Link  href={`/product/${getSlug("icu-pendant")}`} style={{ textDecoration: 'none', color: '#009eff' }}>ICU Pendant</Link>,
-          },
-          {
-            key: '15-7',
-            label: <Link href={`/product/${getSlug("single-arm-pendant")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Single Arm Pendant</Link>,
-          },
-        ],
-      },
-      {
-        key: '16',
-        label: <Link href='/product/3' style={{ textDecoration: 'none', color: '#009eff' }}>Bed Head Panel</Link>,
-        children: [
-          {
-            key: '16-1',
-            label: <Link href={`/product/${getSlug("vertical-panel")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Vertical panel</Link>,
-          },
-          {
-            key: '16-2',
-            label: <Link href={`/product/${getSlug("horizontal-panel")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Horizontal Panel</Link>,
-          },
-        ],
-      },
-      {
-        key: '17',
-        label: <Link href={`/product/${getSlug("operation-theatre")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Operation Theatre</Link>,
-      },
-      {
-        key: '18',
-        label: <Link href='/product/3' style={{ textDecoration: 'none', color: '#009eff' }}>Operation Theatre Accessories</Link>,
-        children: [
-          {
-            key: '18-1',
-            label: <Link href={`/product/${getSlug("operation-theatre-control-panel")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Operation Theatre Control Panel</Link>,
-          },
-          {
-            key: '18-2',
-            label: <Link href={`/product/${getSlug("surgeon-control-panel-touch-screen")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Surgeon Control Panel (hrefuch screen)</Link>,
-          },
-          {
-            key: '18-3',
-            label: <Link href={`/product/${getSlug("X Ray Viewer")}`}  style={{ textDecoration: 'none', color: '#009eff' }}>X-Ray Viewer</Link>,
-          },
-          {
-            key: '18-4',
-            label: <Link href={`/product/${getSlug("writing-board")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Writing Board</Link>,
-          },
-          {
-            key: '18-5',
-            label: <Link href={`/product/${getSlug("hatch-box")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Hatch Box</Link>,
-          },
-          {
-            key: '18-6',
-            label: <Link  href={`/product/${getSlug("scrub-sink")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Scrub Sink</Link>,
-          },
-          {
-            key: '18-7',
-            label: <Link href={`/product/${getSlug("vinyl-flooring")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Vinyl Flooring</Link>,
-          },
-          {
-            key: '18-8',
-            label: <Link href={`/product/${getSlug("p-r-d")}`} style={{ textDecoration: 'none', color: '#009eff' }}>P.R D</Link>,
-          },
-          {
-            key: '18-9',
-            label: <Link href={`/product/${getSlug("ot-door")}`} style={{ textDecoration: 'none', color: '#009eff' }}>OT Door</Link>,
-          },
-        ],
-      },
-      {
-        key: '19',
-        label: <Link href='/product/3' style={{ textDecoration: 'none', color: '#009eff' }}>Air Compressor & Vacuum Pump</Link>,
-        children: [
-          {
-            key: '19-1',
-            label: <Link href={`/product/${getSlug("vacuum-pump")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Vacuum Pump</Link>,
-          },
-          {
-            key: '19-2',
-            label: <Link href={`/product/${getSlug("receiver-tank")}`}  style={{ textDecoration: 'none', color: '#009eff' }}>Receiver Tank</Link>,
-          },
-          {
-            key: '19-3',
-            label: <Link href={`/product/${getSlug("air-dryer")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Air Dryer</Link>,
-          },
-          {
-            key: '19-4',
-            label: <Link href={`/product/${getSlug("air-compressor")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Air Compressor</Link>,
-          },
-        ],
-      },
-      {
-        key: '20',
-        label: <Link href='/product/3' style={{ textDecoration: 'none', color: '#009eff' }}>Anaesthetic Gas Scavenging System</Link>,
-        children: [
-          {
-            key: '3-1',
-            label: <Link href={`/product/${getSlug("agss-simplx")}`} style={{ textDecoration: 'none', color: '#009eff' }}>AGSS- Simplx</Link>,
-          },
-          {
-            key: '3-2',
-            label: <Link href={`/product/${getSlug("agss-duplex")}`}style={{ textDecoration: 'none', color: '#009eff' }}>AGSS – Duplex</Link>,
-          },
-        ],
-      },
-      {
-        key: '21',
-        label: <Link href='/product/3' style={{ textDecoration: 'none', color: '#009eff' }}>AGSS / WAGD Accessories</Link>,
-        children: [
-          {
-            key: '21-1',
-            label: <Link href={`/product/${getSlug("receiver-interface-unit")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Receiver / Interface Unit</Link>,
-          },
-          {
-            key: '21-2',
-            label: <Link href={`/product/${getSlug("receiver-interface-unit-with-transfer-and-evacuation-hose-assembly-conforming-to-bs-en-")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Receiver/ Interface unit with transfer & Evacuation Hose Assembly (3M) conforming href BS EN ISO: 80601-2-13 : 2012+A2: 2019</Link>,
-          },
-          {
-            key: '21-3',
-            label: <Link href={`/product/${getSlug("3m-bs-compatible-agss-evacuation-hose-assembly-5m-on-request")}`} style={{ textDecoration: 'none', color: '#009eff' }}>3m BS Compatible AGSS Evacuation Hose Assembly (5m on request)</Link>,
-          },
-          {
-            key: '21-4',
-            label: <Link href={`/product/${getSlug("remote-switch")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Remote switch</Link>,
-          },
-          {
-            key: '21-5',
-            label: <Link href={`/product/${getSlug("scavenging-connector-for-trasfer-hose-30mm-iso-conical-male-and-female-pair")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Scavenging Connechrefr for Trasfer Hose-30mm ISO Conical Male & Female (pair)</Link>,
-          },
-          {
-            key: '21-6',
-            label: <Link href={`/product/${getSlug("kink-resistance-transfer-hose-with-a-pair-of-30mm-conical-male-and-female-connector")}`} style={{ textDecoration: 'none', color: '#009eff' }}>Kink- resistance transfer hose with a pair of 30mm Conical (ISO) Male & female connechrefr</Link>,
-          },
-        ],
-      },
+      
     ],
   },
   {
@@ -447,16 +163,19 @@ const items = [
 
 // ------------------------------------- mobile header end ----------------------//
 const Header = () => {
-  const dropdownRef = useRef(null);
+  const dropdownRef = useRef();
   const [open, setOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState(null);
   const [activeSubcategory, setActiveSubcategory] = useState(null);
   const router = useRouter();
 
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [openCategoryId, setOpenCategoryId] = useState(null);
+
  
   // Function to close the dropdown after clicking any product link
-  const [isDropdownOpen, setIsDropdownOpen] = React.useState(false);
+  // const [isDropdownOpen, setIsDropdownOpen] = React.useState(false);
 
   // Function to close the dropdown
   const closeDropdown = () => {
@@ -508,15 +227,40 @@ const onClose = () => {setOpen(false)};
 
 
 
-  const handleCategoryClick = (e, categoryId) => {
-    e.stopPropagation();
-    setActiveCategory(activeCategory === categoryId ? null : categoryId);
-    setActiveSubcategory(null);
-  };
+  // const handleCategoryClick = (e, categoryId) => {
+  //   e.stopPropagation();
+  //   setActiveCategory(activeCategory === categoryId ? null : categoryId);
+  //   setActiveSubcategory(null);
+  // };
 
   const handleSubcategoryClick = (e, subcategoryId) => {
     e.stopPropagation();
     setActiveSubcategory(activeSubcategory === subcategoryId ? null : subcategoryId);
+  };
+
+  const [openCategory, setOpenCategory] = useState(null);
+  const [openSubCategory, setOpenSubCategory] = useState(null);
+
+  const handleCategoryClick = (categoryId) => {
+    setOpenCategory((prevCategory) => (prevCategory === categoryId ? null : categoryId));
+    setOpenSubCategory(null); // Close subcategories when switching categories
+  };
+
+  const handleSubCategoryClick = (subcategoryName) => {
+    setOpenSubCategory((prevSubCategory) =>
+      prevSubCategory === subcategoryName ? null : subcategoryName
+    );
+  };
+
+  // Toggle the main dropdown visibility
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+    setOpenCategoryId(null); // Close any open subcategory
+  };
+
+  // Toggle the visibility of a specific category's subcategories
+  const toggleSubcategory = (categoryId) => {
+    setOpenCategoryId(openCategoryId === categoryId ? null : categoryId);
   };
 
   return (
@@ -591,26 +335,94 @@ const onClose = () => {setOpen(false)};
             </div>
           </Link>
 
-
-
-
-
-
-
-
-          
-          
-
-
-
-
           <Link href='/about' style={{ textDecoration: 'none' }}>
             <div className='header_menu' id='dropdownMenuButton'>
               About us
             </div>
           </Link>
 
-          <div className='dropdown border-0 '>
+          <div style={{ position: 'relative', display: 'inline-block' }}>
+      {/* Main Button to Open Dropdown */}
+      <button className='fw-bolder'
+        onClick={toggleDropdown}
+        style={{
+          padding: '6.5px 10px',
+          cursor: 'pointer',
+          color: 'white',
+          backgroundColor: '#009eff',
+          border: 'none',
+          borderRadius: '4px',
+          fontSize: '16px',
+          position: 'relative',
+          zIndex: 10,
+        }}
+      >
+        Products 
+      </button>
+
+      {/* Dropdown List */}
+      {isDropdownOpen && (
+        <div
+          style={{
+            position: 'absolute',
+            top: '110%',
+            left: 0,
+            backgroundColor: 'white',
+            boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)',
+            borderRadius: '4px',
+            width: '380px',
+            zIndex: 9,
+            padding: '4px 0',
+          }}
+        >
+          {/* List of Categories */}
+          {data.map((category) => (
+            <div key={category.id}>
+              <button
+                onClick={() => toggleSubcategory(category.id)}
+                style={{
+                  width: '100%',
+                  textAlign: 'left',
+                  border: 'none',
+                  backgroundColor: openCategoryId === category.id ? '#e9f7ef' : 'white',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  alignItems: 'center',
+                }}
+              >
+                <span>{category.name}</span>
+                <span style={{ fontSize: '12px', marginLeft: '10px' }}>
+                  {openCategoryId === category.id ? '▲' : '▼'}
+                </span>
+              </button>
+
+              {/* Subcategories Dropdown */}
+              {openCategoryId === category.id && (
+                <div style={{ paddingLeft: '20px', backgroundColor: '#f9f9f9', padding: '4px 0' }}>
+                  {category.subcategories.map((subcategory) => (
+                    <Link href={`/product/${getSlug(subcategory.name)}`}  style={{textDecoration: 'none'}} >
+                        <div
+                          key={subcategory.id}
+                          onClick={toggleDropdown}
+                          style={{
+                            cursor: 'pointer',
+                            borderBottom: '1px solid #ddd',
+                          }}
+                        >
+                          {subcategory.name}
+                        </div>
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+
+          {/* <div className='dropdown border-0 '>
               <button
                 className='btn btn-secondary dropdown-toggle border-0   text-primary fw-bolder'
                 type='button'
@@ -2900,7 +2712,7 @@ const onClose = () => {setOpen(false)};
                     )}
                   </div>
               </div>
-            </div>
+            </div> */}
 
 
 

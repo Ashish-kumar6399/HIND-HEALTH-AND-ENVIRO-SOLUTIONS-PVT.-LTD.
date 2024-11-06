@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="d-flex">
               <div id="icons-footer1">
                 <Link
-                  href="https://www.instagram.com/mr_engg_works_pvt_ltd?igsh=MThhYmdmaHBlcmtsOA%3D%3D&utm_source=qr"
+                  href="https://www.instagram.com/hhespvtltd/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -21,7 +21,7 @@ const Footer = () => {
               </div>
               <div id="icons-footer2">
                 <Link
-                  href="https://www.facebook.com/profile.php?id=61564068751410&mibextid=LQQJ4d"
+                  href="https://www.facebook.com/profile.php?id=61565605417057"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -30,11 +30,11 @@ const Footer = () => {
               </div>
               <div id="icons-footer3">
                 <Link
-                  href="https://www.linkedin.com/company/mr-engg-works-pvt-ltd/"
+                  href="https://g.co/kgs/Udp9Rdd/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fa-brands fa-linkedin"></i>
+                 <i className="fa-brands fa-google"></i>
                 </Link>
               </div>
             </div>
@@ -83,22 +83,24 @@ const Footer = () => {
             </h4>
             <p className="text-white">E-3/270, Shiv Ram Park Nangloi, Near Peer Baba Mazar, New Delhi, Delhi -110041</p>
           </div>
-
           <div className="footer-2 col-12 col-md-6 col-lg-4">
-            <h4 className="fw-bolder working text-white">Services </h4>
-            <p>Toilet Cabins</p>
-            <p>Mobile Toilet Van</p>
-            <p>Biogas Storage Tank</p>
-            <p>Mobile Toilet Trolley</p>
-            <p>Two Seater Toilet Cabin</p>
-            <p>Single Seater Portable Toilet Cabin</p>
-            <p>Ten Seated Stainless Steel Wc Toilet</p>
+            <h4 className="fw-bolder working text-white pb-0">Quick Links </h4>
+            {/* <Link className="text-decoration-none fw-bolder " href='/home'><p className="">Home</p></Link> */}
+            <Link className="text-decoration-none fw-bolder mb-0" href='/about'><p className="mb-2" >About Us</p></Link>
+            <Link className="text-decoration-none fw-bolder" href=''><p className="mb-2" >Products</p  ></Link>
+            <Link className="text-decoration-none fw-bolder" href='products'><p className="mb-2"> Rental</p></Link>
+            <Link className="text-decoration-none fw-bolder" href='client'><p className="mb-2">Clientele</p></Link>
+            <Link className="text-decoration-none fw-bolder text-white" href='/Toilet-Cabin'><p className="mb-2">Toilet-Cabin</p></Link>
+            <Link className="text-decoration-none fw-bolder text-white" href='/Mobile_trolley'><p className="mb-2">Mobile trolley</p></Link>
+            <Link className="text-decoration-none fw-bolder text-white" href='/Biogas'><p className="mb-2">Biogas Storage Tank</p></Link>
+            <Link className="text-decoration-none fw-bolder text-white" href='Two-Seater-Toilet-Cabin'><p className="mb-2">Two-Seater-Toilet-Cabin</p></Link>
+            <Link className="text-decoration-none fw-bolder text-white" href='Single-Seater-Portable-Toilet-Cabin'><p className="mb-2">Single-Seater-Portable-Toilet-Cabin</p></Link>
           </div>
 
-          <div className="footer-3 col-12 col-md-6 col-lg-4">
+          <div className="footer-3 col-12 col-md-6 col-lg-4" style={{marginTop:"2rem"}}>
             <h4 className="fw-bolder text-white">Find Us Here</h4>
             <iframe
-              src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30773392.078304354!2d61.028322527582496!3d19.69057626482709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0544cbdb57d5%3A0x87d354459ab5ee5!2sHind%20Health%20and%20Enviro%20SolutionsPvt.Ltd.!5e0!3m2!1sen!2sin!4v1729751422038!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+              src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112023.95043381833!2d76.90930909726558!3d28.667249699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d05aa6aaaaaab%3A0xbbb0a7d980421f15!2sHHES-%20Mobile%20Toilet%20Manufacture%2C%20Portable%20Toilet%20Manufacturer%2C%20FRP%20Toilet%20Manufacturer!5e0!3m2!1sen!2sin!4v1730543898886!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
               width="100%"
               height="90%"
               allowFullScreen={false}
@@ -106,6 +108,8 @@ const Footer = () => {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
             
+
+           
            
           </div>
         </div>
@@ -123,7 +127,7 @@ const Footer = () => {
           <span className="text-danger">
             {" "}
             <Link
-              className="text-decoration-underlined "
+              className="text-decoration-none "
               href="https://kanakdrishtiinfo.com/"
               target="blank"
             >

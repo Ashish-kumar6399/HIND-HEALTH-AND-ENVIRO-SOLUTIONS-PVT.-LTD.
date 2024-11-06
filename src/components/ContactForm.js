@@ -38,6 +38,8 @@ const ContactForm = () => {
     return true;
   };
 
+  
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -91,8 +93,8 @@ const ContactForm = () => {
           <h2 className="contact-details-h2 fw-bolder">Contact Us</h2>
           <div className="contact-s">
             <div>
-            <h4 className="fw-bolder callus" id="call_uss"><span><i class="fa-solid fa-user"></i> </span>  Director</h4>
-            <h5>Mr Ramashankar
+            <h4 className="fw-bolder callus" id="call_uss"><span><i className="fa-solid fa-user"></i> </span>  Director</h4>
+            <h5>Mr. Ramashankar (Director)
             </h5>
 
               <h4 className="fw-bolder callus" id="call_uss">
@@ -121,7 +123,7 @@ const ContactForm = () => {
             </div>
 
             <div>
-              <h4 className="fw-bolder" id="call_uss"> <i class="fa-solid fa-envelope"></i>  Email Us</h4>
+              <h4 className="fw-bolder" id="call_uss"> <i className="fa-solid fa-envelope"></i>  Email Us</h4>
 
               <p>
                 <a
@@ -138,7 +140,7 @@ const ContactForm = () => {
             </div>
 
             <div>
-              <h4 className="fw-bolder" id="call_uss"> <i class="fa-solid fa-location-dot"></i> Our Address </h4>
+              <h4 className="fw-bolder" id="call_uss"> <i className="fa-solid fa-location-dot"></i> Our Address </h4>
               <p>E-3/270, Shiv Ram Park Nangloi, Near Peer Baba Mazar, New Delhi, Delhi -110041
               </p>
             </div>

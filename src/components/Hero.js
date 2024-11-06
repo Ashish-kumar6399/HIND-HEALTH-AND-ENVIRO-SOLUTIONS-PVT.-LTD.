@@ -8,8 +8,9 @@ const Hero = () => {
   const images = [
     // img
     "/image/img/Vip cabin.webp",
-    "/image/img/2 Seater MS Toilet Cabin fRONT1.png",
+    "/image/img/Double-seated-Toilet.webp",
     "/image/img/3 seater portable toilet cabin.png",
+    
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

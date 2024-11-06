@@ -1,0 +1,93 @@
+.main_div_testim{
+    width: 90%;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width:768){
+    .testimonial{
+      margin:auto;
+      justify-content: space-between;
+      height:90%;
+      width: 70%;
+    }
+}
+
+.bi-star-fill{
+    color: gold;
+    font-size: 20px;
+}
+.star_div{
+    width: 100%;
+    /* display: flex; */
+    text-align: center;
+
+}
+
+.testimonial_main_div{
+    background-color: #dfdfdf;
+    /* margin-bottom: 2rem; */
+    /* background: linear-gradient(135deg, #009eff, #b0c4de); */
+
+}
+
+
+
+
+
+/* Full-width image card with overlay adjustments */
+#card1 {
+    margin-top: 20px;
+    width: 100vw;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    border: none;
+}
+
+#card1 .card-img {
+    width: 100%;
+    height: auto; /* Maintain the aspect ratio */
+}
+
+
+.tours_daily{
+    margin-bottom: 1rem;
+}
+
+
+.cards_container_div{
+    width: 100%;
+}
+
+
+
+
+@media (max-width: 1200px) {
+    .main_div_testim {
+        height: 36rem; 
+    }
+}
+
+@media (max-width: 992px) {
+    .main_div_testim{
+        height: 28rem; 
+    }
+}
+
+@media (max-width: 768px) {
+    .main_div_testim {
+        height: 20rem; 
+    }
+}
+
+@media (max-width: 576px) {
+    .main_div_testim {
+        height: 15rem; 
+    }
+}
+
+.fa-star{
+    color: gold;
+}

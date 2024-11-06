@@ -6,7 +6,7 @@ const WhyMregg = () => {
   return (
     <div className="why-mregg container">
       <div className="why-mregg-upper row">
-        <h3 className="fw-bold">Why Choose Us?</h3>
+        <h3 className="fw-bolder">Why Choose Us?</h3>
         <div className="text-details col-12">
           <p>
             <span className="bold-details">

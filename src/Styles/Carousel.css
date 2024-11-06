@@ -24,3 +24,16 @@
     background-color: black;
     border-radius: 50%;
 }
+
+
+@media only screen and (max-device-width: 480px) {
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background-color: black;
+    border-radius: 50%;
+}}

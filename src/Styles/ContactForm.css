@@ -39,11 +39,11 @@
     padding: 16px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    color: #009eff    ; /* Text color */
+    color: black    ; /* Text color */
   }
 
 .form-input:hover {
-    border: 2px solid #009eff    ;
+    border: 2px solid black    ;
 }
   
 .message-input {
@@ -52,7 +52,7 @@
     padding: 16px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    color: #009eff;
+    color: black;
     background-color: #fff;
     resize: vertical;
     box-sizing: border-box;

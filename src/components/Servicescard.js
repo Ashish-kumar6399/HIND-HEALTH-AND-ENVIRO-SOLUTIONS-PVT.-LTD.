@@ -31,7 +31,7 @@ function Servicescard() {
         <Carousel
            swipeable={true}
            draggable={true}
-             showDots={true}
+             showDots={false}
               responsive={responsive}
                ssr={true} // means to render carousel on server-side.
                 infinite={true}
@@ -40,11 +40,11 @@ function Servicescard() {
                       keyBoardControl={true}
                       customTransition="all"
                       transitionDuration={500}
-                      containerClass="carousel-container"
+                      containerclassName="carousel-container"
                       removeArrowOnDeviceType={["desktop"]}
                       // deviceType={this.props.deviceType}
-                      dotListClass="custom-dot-list-style"
-                      itemClass="carousel-item-padding-40-px" >
+                      dotListclassName="custom-dot-list-style"
+                      itemclassName="carousel-item-padding-40-px" >
              
           <div className="card card_sevices  rounded">
           <img id='img_service' src={'/image/img/toilet cabins.webp'} alt='Card 1' />

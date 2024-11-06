@@ -8,6 +8,43 @@ import { Placeholder } from "react-bootstrap";
 
 const Product = ({ params }) => {
 
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    {
+      
+
+      try {
+        const response = await fetch("/api/sendEmail", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name: formData.name,
+            mobile: formData.mobile,
+            email: formData.email,
+            message: formData.message,
+            emailBody: formData, 
+          }),
+        });
+
+        const result = await response.json();
+
+        if (response.ok && result.success) {
+          alert("Email sent successfully!", response);
+          setTimeout(() => {
+            router.push("/thankyou");
+          }, 1000);
+        } else {
+          alert("Failed to send email. Please try again.");
+        }
+      } catch (error) {
+        alert("An error occurred: " + error.message);
+      }
+    }
+  };
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -24,19 +61,23 @@ const Product = ({ params }) => {
     }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(formData);
-  };
+  // console.log(formData);
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   console.log(formData);
+  // };
 
   const { id } = params;
   const [single, setSingle] = useState(null);
+  
   useEffect(() => {
     if (id) {
-      const product = tourData.find(
-        (item) => item.name.toLowerCase() === getName(id).toLowerCase()
-      );
-      setSingle(product || {});
+      const matchedSubcategory = tourData
+        .flatMap((item) => item.subcategories) // Get all subcategories from each item in tourData
+        .find((subcategory) => subcategory.name.toLowerCase() === getName(id).toLowerCase());
+  
+      setSingle(matchedSubcategory || {}); // Store only the matching subcategory
     }
   }, [id]);
 
@@ -152,15 +193,20 @@ const Product = ({ params }) => {
               </div>
             </div>
           </div>
-          <img className="d-none d-md-block" id='img_service' src={'/image/img/Ten Seater Mobile Toilet.webp'} alt='Card 1' style={{width:"35vw"}}  />
-
+          {/* <img className="d-none d-md-block" id='img_service' src={'/image/img/Ten Seater Mobile Toilet.webp'} alt='Card 1' style={{width:"35vw"}}  /> */}
+          <div className=" container align-content-center w-100" style={{border:"",justifyContent:"center"}}>
+              <video width="100%" height="100%" controls>
+                <source src="/video/hhes video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
 
         </div>
         
         {/* Form Section */}
 
         <div className="col-md-6" id="form_new" style={{backgroundColor:"aliceblue"}}>
-                    <diV className="container fw-bolder text-center pt-2" style={{fontSize:"1.5rem",color:"#009eff"}} > Contact Form</diV>
+          <diV className="container fw-bolder text-center pt-2" style={{fontSize:"1.5rem",color:"#009eff"}} > Contact Form</diV>
 
           <form onSubmit={handleSubmit} style={{ margin: "1rem" }}>
             <div className="mb-3">
@@ -198,10 +244,9 @@ const Product = ({ params }) => {
                 onChange={handleChange}
                 required
               >
-                <option value="">Choose...</option>
-                <option value="Service 1">Service 1</option>
-                <option value="Service 2">Service 2</option>
-                <option value="Service 3">Service 3</option>
+                {/* <option value="service">choose</option> */}
+                <option value="Purchase">Purchase </option>
+                <option value="Rent">Rent</option>
               </select>
             </div>
             <div className="mb-3">

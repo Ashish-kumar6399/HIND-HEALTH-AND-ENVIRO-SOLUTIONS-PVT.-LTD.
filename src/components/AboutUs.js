@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/AboutUs.css";
 import Aboutusowl from "./Aboutusowl";
+import Vision from "./Vision";
 
 const AboutUs = () => {
   return (
@@ -36,6 +37,8 @@ const AboutUs = () => {
 
           <div className="about-us-card"></div>
           <Aboutusowl />
+          <Vision/>
+
         </div>
       </div>
     </div>

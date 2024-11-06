@@ -2,10 +2,7 @@
 
 
 .footer-container{
-    background-color:#009eff
-
-
-    ;
+    background-color:#009eff;
 }
 .footer{
     display: flex;
@@ -46,7 +43,7 @@
 
 .footer-2 p {
 
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     color: white;
 }
 
@@ -118,18 +115,27 @@
 }
 
 #icons-footer1 i {
-    font-size: 40px;
+    font-size: 30px;
     margin-right: 0.6rem;
     color: rgb(229, 38, 0);
 }
 
 #icons-footer2 i {
-    font-size: 40px;
+    font-size: 30px;
     margin-right: 0.6rem;
     color: rgb(0, 77, 110);
 }
 
 #icons-footer3 i {
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(0, 46, 79);
+}
+
+
+.working{
+    margin-top: 2.2rem;
+}
+.footer-2 p{
+    font-size: 18px;
+    padding-left: 7%;
 }
